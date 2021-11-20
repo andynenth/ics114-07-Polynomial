@@ -16,6 +16,7 @@ namespace Polynomial
             while (!int.TryParse(inVal, out number))
             {
                 Console.WriteLine(" Invalid number \"{0\" entered. Please re-enter a number.", inVal);
+                break;
             }
             
             Console.WriteLine("Original array:");
